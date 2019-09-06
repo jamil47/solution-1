@@ -1,0 +1,498 @@
+/* Author Nmae:- Jamil
+   Author Info:- jamilhosen  
+*/
+
+/*==== Index ====)
+      1.Fusce at
+      2.about us
+      3.service
+      4.Blog
+      5.Contact
+*/
+
+/*========= Global CSS======= */
+
+/*========= Theme CSS======= */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/*======= Home Part Start=======*/
+
+header{
+    background: url(../img/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    
+}
+
+
+.logo-pic{
+    
+}
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.banner-header{
+    padding-top: 150px;
+    text-align: center;
+        
+}   
+.banner-header h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.btn-cstm{
+    border-radius: 25px;
+    background-color: #ED145B;
+    padding: 0px 14px;
+    color: white;
+    margin-top: 44px;
+    margin-bottom: 164px;
+}
+.banner-header p{
+    color: white;
+   font-size: 13px;
+    margin-top: 20px;
+}
+.underline{
+    border: 1px solid #ED145B;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+/*======= Home Part end =======*/
+
+/*======= About Part start =======*/
+
+.about{
+    background-color: #F4F4F4;
+}
+.about-header h2{
+    font-size: 25px;
+    color: #D72C41;
+        
+}
+.underline2{
+    border: 1px solid #ED145B;
+    display: block;
+    width: 20%;
+    margin-left: 38px;
+    margin-top: 24px;
+    margin-bottom: 20px
+}
+.about-header p{
+    color: #B9BCD1;
+
+}
+.one{
+    
+}
+.one h5{
+    color: #5A5A5A;
+    font-size: 24px
+}
+.one p{
+    color: #5A5A5A;
+    font-size: 13px;
+}
+.one span{
+    color: #D72C41;
+}
+.two img{
+    width: 100%;
+}
+
+/*======= About Part end =======*/
+
+
+/*======= service Part start =======*/
+
+.service{
+    background-color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.service-header h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.underline3{
+    border: 1px solid #ED145B;
+    display: block;
+    width: 20%;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+.service-header p{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.circle{
+    padding-top: 40px;
+    text-align: center;
+   
+}
+.three{
+   padding: 15px; 
+}
+/*======= service Part end =======*/
+
+/*======= extra Part start =======*/
+
+.extra{
+    background: url(../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.extra-header{
+    text-align: center;
+}
+.extra-header p{
+    color: white;
+    
+}
+.fa.fa-quote-right{
+    color: #ED145B;
+   
+    font-size: 30px;
+}
+.fa.fa-quote-left{
+     color: #ED145B;
+  
+    font-size: 30px;
+}
+
+.fa.fa-chevron-right{
+    color: white;
+    padding-top: 65px
+}
+.fa.fa-chevron-left{
+    color: white;
+    padding-top: 65px
+}
+/*======= extra Part end =======*/
+
+/*======= prices Part start =======*/
+.prices{
+    background-color: #F4F4F4;
+    padding-top: 40px;
+    padding-bottom: 61px;
+}
+.prices-header h2{
+    text-align: center;
+    color: #7E7E7E;
+    margin-bottom: 20px;
+}
+.prices-header p{
+    text-align: center;
+    color: #7E7E7E;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.card-part{
+    padding-top: 40px;
+}
+.part{
+    background: #5A5A5A;
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+.part1{
+    background: #ED145B;
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.part span i{
+    color: #F4F4F4;
+    font-size: 18px;
+}
+.part1 span i{
+    color: #F4F4F4;
+    font-size: 18px;
+}
+.text{
+    color: #F4F4F4;
+    font-size: 40px;
+}
+.part p{
+    color:#F4F4F4;
+}
+.part1 p{
+    color:#F4F4F4;
+}
+.btn-cstm2{
+    border-radius: 25px;
+    background-color: #F4F4F4;
+    position: absolute;
+    top: 101px;
+    left: 55px;
+    padding: 9px 30px;
+}
+.card-body{
+    padding-top: 40px;
+}
+.card-title h2{
+    color: #8D8D8D;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.btn-cstm3{
+    border-radius: 25px;
+    background-color: #ED145B;
+    margin-top: 15px;
+    padding: 7px 14px;
+}
+.card{
+    text-align: center;
+}
+.card
+
+/*======= prices Part end =======*/
+
+/*======= extra2 Part start =======*/
+.extra2{
+   background: #FFFFFF;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.extra2-part {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.five{
+    padding-top: 70px;
+}
+/*======= extra2 Part end =======*/
+
+/*======= extra3 Part start =======*/
+.join{
+    background: #ED145B;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+.six h2{
+    color: white;
+    text-align: center;
+   
+}
+.btn-cstm4{
+    border-radius: 25px;
+    background-color: white;
+    color: #ED145B;
+    padding: 5px 39px;
+  
+}
+
+/*======= extra3 Part end =======*/
+
+/*======= Contact Part start =======*/
+.contact{
+    background: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.seven{
+    padding-top: 20px;
+}
+.card-title {
+    color: #8D8D8D;
+    text-align:left;
+    font-size: 18px;
+}
+.card-text{
+    text-align: left;
+    font-size: 14px;
+}
+.work{
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(237, 20, 91, 0.69);
+    text-align: center;
+    opacity: 0;
+/*    transform: scale(0);*/
+    transition: all linear .3s;
+}
+
+.overlay i {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    line-height: 40px;
+    color: #221815;
+    border-radius: 3px;
+    margin:  0 5px;
+}
+.work:hover .overlay {
+    opacity: 4;
+    width: 100%;
+/*    transform: scale(1);*/
+}
+
+.eight{
+    padding-top: 50px;
+}
+.nine{
+    text-align: center;
+    padding-top: 50px;
+}
+.nine p{
+    color: #ED145B;
+   
+}
+.nine i{
+    color: #ED145B;
+  font-size: 22px;
+}
+
+
+
+/*======= Contact Part end =======*/
+
+/*======= extra3 Part start =======*/
+
+.extra3{
+    background: url(../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.extra3-header{
+    text-align: center;
+}
+.extra3-header h2{
+    color: white;
+    margin-bottom: 25px;
+}
+.extra3-header p{
+    color: white;
+    margin-top: 25px;
+}
+.underline4{
+    border: 1px solid #ED145B;
+    display: block;
+    width: 20%;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+.btn-cstm5{
+    border-radius: 25px;
+    background: #ED145B;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+}
+/*======= Contact Part end =======*/
+
+/*======= download Part start =======*/
+.download{
+    background: #F4F4F4;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.download-part img{
+    width: 100%;
+}
+
+.download-header{
+  padding-top: 30px;
+}
+.download-header h2{
+    color: #6F6F6F;
+}
+
+.download-header p{
+    color: #6F6F6F;
+}
+
+.underline5{
+    border: 1px solid #ED145B;
+    display: block;
+    width: 20%;
+    margin-top: 24px;
+    margin-bottom: 20px;
+  
+}
+.card-title1 {
+    color: #8D8D8D;
+    
+    font-size: 18px;
+}
+.card-text{
+    text-align: left;
+    font-size: 14px;
+}
+
+/*======= download Part end =======*/
+
+/*======= footer Part start =======*/
+
+.footer{
+    background: #2B2B2B;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.ten{
+    
+}
+.ten p{
+    color: white;
+}
+.eleven p{
+    color: white;
+    text-transform: uppercase;
+}
+/*======= footer Part end =======*/
